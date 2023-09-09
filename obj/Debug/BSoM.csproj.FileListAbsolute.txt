@@ -1,0 +1,12 @@
+C:\Users\danie\source\repos\build-systems-gh\BSoM\bin\Debug\BuildSystemsStructure.dll
+C:\Users\danie\source\repos\build-systems-gh\BSoM\bin\Debug\BuildSystemsStructure.pdb
+C:\Users\danie\source\repos\build-systems-gh\BSoM\obj\Debug\BSoM.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\build-systems-gh\BSoM\obj\Debug\BSoM.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\build-systems-gh\BSoM\obj\Debug\BuildSystemsStructure.dll
+C:\Users\danie\source\repos\build-systems-gh\BSoM\obj\Debug\BuildSystemsStructure.pdb
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\bin\Debug\BuildSystemsStructure.dll
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\bin\Debug\BuildSystemsStructure.pdb
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsStructure.dll
+C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsStructure.pdb
