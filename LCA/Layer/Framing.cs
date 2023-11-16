@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using BSoM.LCA.Layer.FramingParts;
+
 namespace BSoM.LCA.Layer
 {
     // The framing layers that make this assembly.

@@ -1,0 +1,8 @@
+D:\repos\BuildSystems-gh\BSoM\bin\Debug\net48\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems-gh\BSoM\bin\Debug\net48\BuildSystemsObjectModel.pdb
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.csproj.AssemblyReference.cache
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.csproj.CoreCompileInputs.cache
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.sourcelink.json
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BuildSystemsObjectModel.pdb

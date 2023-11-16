@@ -23,6 +23,8 @@ namespace BSoM.LCA
      * [Description("Identifies the overall construction scope for the project. Set True if New Construction exists within your project.")]
      * public virtual bool ConstructionScopeNew { get; set; } = false;
      * 
+     * What are the differences between a description like the one above and a summary like what I was doing?
+     * 
      * What is this "public virtual"?
      * 
      * What is an interface? They use for the LCA phases, see:
@@ -34,6 +36,11 @@ namespace BSoM.LCA
      * 
      * Having wall > component > assembly
      * This way we can also start planning for windows as geometry
+     * 
+     * Also check the new BHoM version to see what they are changing.
+     * 
+     * Check the EPD object model I saw on linkedin.
+     * Global / Germany-specific
      */
 
 }

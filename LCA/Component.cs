@@ -9,9 +9,14 @@ namespace BSoM.LCA
     public class Component
     {
         /// <summary>
+        /// The ID of the component. It is the combination of the Local, Statics, Structure and the version.
+        /// Example: Trenndecke, tragent, Holzmassiv, version A = TD-tr-HM-A
+        /// </summary>
+        public string ID { get; set; }
+        /// <summary>
         /// Before called Bauteil. It is the location of the component, for example: Dachdecke, Trennwand, Boden, etc.
         /// </summary>
-        public Local Local { get; set; } = Local.Undefined;
+        public Local Category { get; set; } = Local.Undefined;
         /// <summary>
         /// It is the statics of the component, for example: Tragend, Nichttragend, etc.
         /// </summary>
@@ -20,11 +25,6 @@ namespace BSoM.LCA
         /// Before called Bauart. It is the main material of the component, for example: Beton, Holz, etc.
         /// </summary>
         public Structure Structure { get; set; } = Structure.Undefined;
-        /// <summary>
-        /// The ID of the component. It is the combination of the Local, Statics, Structure and the version.
-        /// Example: Trenndecke, tragent, Holzmassiv, version A = TD-tr-HM-A
-        /// </summary>
-        public string ID { get; set; }
         /// <summary>
         /// Beschreibung. A description of the component.
         /// </summary>
@@ -84,7 +84,7 @@ namespace BSoM.LCA
         /// <summary>
         /// Sub Aufbau. The top layers of the component, finishing.
         /// </summary>
-        public Assembly SubAssemblyu { get; set; }
+        public Assembly SubAssembly { get; set; }
         /// <summary>
         /// The total cost of the component.
         /// </summary>

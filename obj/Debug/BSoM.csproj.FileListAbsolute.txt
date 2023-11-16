@@ -10,3 +10,9 @@ C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.AssemblyR
 C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.CoreCompileInputs.cache
 C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsStructure.dll
 C:\Users\danie\source\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsStructure.pdb
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.AssemblyReference.cache
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\BSoM.csproj.CoreCompileInputs.cache
+D:\repos\BuildSystems-gh\BSoM\bin\Debug\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems-gh\BSoM\bin\Debug\BuildSystemsObjectModel.pdb
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems-gh\BSoM\obj\Debug\BuildSystemsObjectModel.pdb
