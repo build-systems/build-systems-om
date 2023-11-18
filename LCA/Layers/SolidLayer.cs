@@ -29,13 +29,15 @@ namespace BSoM.LCA.Layers
             string tag = GetNextTag();
             materialOptions.Add(tag, option);
         }
-
+        /// <summary>
+        /// Return the next option as a letter
+        /// </summary>
+        /// <returns></returns>
         private string GetNextTag()
         {
             char tag = (char)('A' + (tagCounter) % 26);
             tagCounter++;
             return tag.ToString();
         }
-
     }
 }

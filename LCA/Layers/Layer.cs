@@ -14,7 +14,7 @@ namespace BSoM.LCA.Layers
         /// <summary>
         /// Level of detail. LOD 1: Component; LOD 2: Assembly; LOD 3: Layer; LOD 4: Sub-layer or Material
         /// </summary>
-        public string LOD { get; set; }
+        public int LOD { get; set; } = 3;
         /// <summary>
         /// BOM-like structure to represent parent-child relationships.
         /// </summary>
@@ -30,10 +30,10 @@ namespace BSoM.LCA.Layers
         /// <summary>
         /// Thickness of the assembly.
         /// </summary>
-        public string Thickness { get; set; }
+        public double Thickness { get; set; }
         /// <summary>
         /// Cost in € per m².
         /// </summary>
-        public string Cost { get; set; }
+        public double Cost { get; set; }
     }
 }

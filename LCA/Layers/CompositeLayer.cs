@@ -14,6 +14,6 @@ namespace BSoM.LCA.Layers
         /// <summary>
         /// Dictionary of material options. They should be named Option A, Option B, etc.
         /// </summary>
-        public Dictionary<string, MaterialOption> OptionAttributes { get; set; } = new Dictionary<string, MaterialOption>();
+        //public Dictionary<string, MaterialOption> OptionAttributes { get; set; } = new Dictionary<string, MaterialOption>();
     }
 }
