@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BSoM.LCA.Layer
+namespace BSoM.LCA.Layers.FramingParts
 {
     public class Clamp
     {

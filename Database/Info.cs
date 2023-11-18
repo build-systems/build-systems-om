@@ -13,7 +13,7 @@ namespace BSoM.Database
         /// <summary>
         /// Database root folder path
         /// </summary>
-        public static string Path 
+        public static string Folder 
         {
             get
             {
@@ -38,9 +38,19 @@ namespace BSoM.Database
         /// Component subfolder
         /// </summary>
         public static string Component => "Component";
-
-        public static string MaterialPath() => System.IO.Path.Combine(Path, Material);
-        public static string AssemblyPath() => System.IO.Path.Combine(Path, Material);
-        public static string ComponentPath() => System.IO.Path.Combine(Path, Material);
+        /// <summary>
+        /// Return the Material folder in which the json files are stored
+        /// </summary>
+        /// <returns></returns>
+        public static string MaterialFolder() => System.IO.Path.Combine(Folder, Material);
+        /// <summary>
+        /// Return the Assembly folder in which the json files are stored
+        /// </summary>
+        /// <returns></returns>
+        public static string AssemblyFolder() => System.IO.Path.Combine(Folder, Assembly);
+        public static string ComponentFolder() => System.IO.Path.Combine(Folder, Component);
+        public static List<string> MaterialFiles() => Directory.GetFiles(MaterialFolder(), "*.json").ToList();
+        public static List<string> AssemblyFiles() => Directory.GetFiles(AssemblyFolder(), "*.json").ToList();
+        public static List<string> ComponentFiles() => Directory.GetFiles(ComponentFolder(), "*.json").ToList();
     }
 }

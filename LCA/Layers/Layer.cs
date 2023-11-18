@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BSoM.LCA
+namespace BSoM.LCA.Layers
 {
     // Main layer class, it has the basic information about the layer.
     // The next classes should iherit from this one ?
 
-    public class Layers
+    public class Layer
     {
         /// <summary>
         /// Level of detail. LOD 1: Component; LOD 2: Assembly; LOD 3: Layer; LOD 4: Sub-layer or Material
@@ -34,6 +34,6 @@ namespace BSoM.LCA
         /// <summary>
         /// Cost in € per m².
         /// </summary>
-        public string Kosten { get; set; }
+        public string Cost { get; set; }
     }
 }

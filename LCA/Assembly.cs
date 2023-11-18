@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 using BSoM.Database;
-
 using Newtonsoft.Json;
 
 
@@ -41,7 +40,7 @@ namespace BSoM.LCA
         /// <summary>
         /// Cost in € per m².
         /// </summary>
-        public string Kosten { get; set; }
+        public string Cost { get; set; }
 
         // I am still not sure how to deal with these layers.
         // Ideally they would stay in a single list,
@@ -50,7 +49,7 @@ namespace BSoM.LCA
         /// <summary>
         /// The layers that make this assembly.
         /// </summary>
-        public List<Layers> Layers { get; set; } = new List<Layers>();
+        public List<Layer> Layers { get; set; } = new List<Layer>();
 
         /// <summary>
         /// Constructor using a JSON file name and the folder database
