@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using BSoM.Database;
+
+using Newtonsoft.Json;
+
 
 namespace BSoM.LCA
 {
     public class Assembly
     {
-
         /// <summary>
         /// Level of detail. LOD 1: Component; LOD 2: Assembly; LOD 3: Layer; LOD 4: Sub-layer
         /// </summary>
@@ -46,5 +51,32 @@ namespace BSoM.LCA
         /// The layers that make this assembly.
         /// </summary>
         public List<Layers> Layers { get; set; } = new List<Layers>();
+
+        /// <summary>
+        /// Constructor using a JSON file name and the folder database
+        /// </summary>
+        /// <param name="filename"></param>
+        /// <param name="databasefolder"></param>
+        public Assembly(string filename)
+        {
+            try
+            {
+                // Get all subdirectories
+                //string[] subdirectories = Directory.GetDirectories(databasefolder);
+            }
+            catch
+            { 
+            }
+            // Open JSON file
+            // Loop through it and add properties
+            // Loop through layers
+            // Use layer constructor for each (still have to develop layer constructor)
+            // return assembly
+        }
+
+        /// <summary>
+        /// JSON file name from which the properties were retrieved
+        /// </summary>
+        public string FileName { get; private set; }
     }
 }
