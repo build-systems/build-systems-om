@@ -29,28 +29,44 @@ namespace BSoM.Database
         /// <summary>
         /// Material subfolder
         /// </summary>
-        public static string Material => "Material";
+        public static string MaterialTag => "Material";
         /// <summary>
         /// Assembly subfolder
         /// </summary>
-        public static string Assembly => "Assembly";
+        public static string AssemblyTag => "Assembly";
         /// <summary>
         /// Component subfolder
         /// </summary>
-        public static string Component => "Component";
+        public static string ComponentTag => "Component";
         /// <summary>
         /// Return the Material folder in which the json files are stored
         /// </summary>
         /// <returns></returns>
-        public static string MaterialFolder() => System.IO.Path.Combine(Folder, Material);
+        public static string MaterialFolder() => System.IO.Path.Combine(Folder, MaterialTag);
         /// <summary>
         /// Return the Assembly folder in which the json files are stored
         /// </summary>
         /// <returns></returns>
-        public static string AssemblyFolder() => System.IO.Path.Combine(Folder, Assembly);
-        public static string ComponentFolder() => System.IO.Path.Combine(Folder, Component);
+        public static string AssemblyFolder() => System.IO.Path.Combine(Folder, AssemblyTag);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public static string ComponentFolder() => System.IO.Path.Combine(Folder, ComponentTag);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static List<string> MaterialFiles() => Directory.GetFiles(MaterialFolder(), "*.json").ToList();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static List<string> AssemblyFiles() => Directory.GetFiles(AssemblyFolder(), "*.json").ToList();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static List<string> ComponentFiles() => Directory.GetFiles(ComponentFolder(), "*.json").ToList();
     }
 }
