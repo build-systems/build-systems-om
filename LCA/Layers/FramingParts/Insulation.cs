@@ -14,8 +14,60 @@ namespace BSoM.LCA.Layers.FramingParts
         /// </summary>
         public double Thickness { get; set; }
         /// <summary>
-        /// Dictionary of material options. They should be named Option A, Option B, etc.
+        /// Width of insulation. This value is automatically calculated when adding a Frame to FramingLayer.
         /// </summary>
-        //public Dictionary<string, MaterialOption> OptionAttributes { get; set; } = new Dictionary<string, MaterialOption>();
+        public double Width { get; set; }
+
+        // Dictionary of material options. Keys as A, B, C, etc.
+        private Dictionary<string, Material> materialOptions = new Dictionary<string, Material>();
+        private int tagCounter = 0;
+
+        /// <summary>
+        /// Return the dictionary of material options.
+        /// </summary>
+        public Dictionary<string, Material> MaterialOptions
+        {
+            get { return materialOptions; }
+        }
+
+         /// <summary>
+        /// Add a new option to the dictionary.
+        /// </summary>
+        /// <param name="option"></param>
+        public void AddMaterialOption(Material option)
+        {
+            string tag = GetNextTag();
+            materialOptions.Add(tag, option);
+        }
+        /// <summary>
+        /// Return the next option a letter.
+        /// </summary>
+        /// <returns></returns>
+        private string GetNextTag()
+        {
+            char tag = (char)('A' + (tagCounter) % 26);
+            tagCounter++;
+            return tag.ToString();
+        }
+
+        public Insulation(List<Material> options, double thickness)
+        {
+            this.Thickness = thickness;
+            foreach (Material option in options)
+            {
+                string tag = GetNextTag();
+                materialOptions.Add(tag, option);
+            }
+        }
+        public Insulation(double thickness, Material option)
+        {
+            this.Thickness = thickness;
+            string tag = GetNextTag();
+            materialOptions.Add(tag, option);
+        }
+        public Insulation(double thickness)
+        {
+            this.Thickness = thickness;
+        }
     }
 }
