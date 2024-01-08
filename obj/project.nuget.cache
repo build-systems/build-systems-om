@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hii5gZVeDSN8UXSElqGDOPEfTEg5aQvoGPZ2xSTO7/EAx6zs168c1jvcZw5A/SvwMJHlC8MRrzl8sGz2vYytkA==",
+  "dgSpecHash": "cow5iBVQUalzOQJM6eU9HEUPzuxoOBbB5ToyqSF2ww92nV1+YR05oxtxLWlKVGPTqTPRnoathfigvUSxA8v7GA==",
   "success": true,
-  "projectFilePath": "D:\\repos\\BuildSystems-gh\\BSoM\\BSoM.csproj",
+  "projectFilePath": "D:\\repos\\BuildSystems\\BSoM\\BSoM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

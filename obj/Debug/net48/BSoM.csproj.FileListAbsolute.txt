@@ -10,3 +10,15 @@ D:\repos\BuildSystems-gh\BSoM\bin\Debug\net48\Newtonsoft.Json.dll
 D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.Properties.Resources.resources
 D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.csproj.GenerateResource.cache
 D:\repos\BuildSystems-gh\BSoM\obj\Debug\net48\BSoM.csproj.CopyComplete
+D:\repos\BuildSystems\BSoM\bin\Debug\net48\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems\BSoM\bin\Debug\net48\BuildSystemsObjectModel.pdb
+D:\repos\BuildSystems\BSoM\bin\Debug\net48\Newtonsoft.Json.dll
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.csproj.AssemblyReference.cache
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.Properties.Resources.resources
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.csproj.GenerateResource.cache
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.csproj.CoreCompileInputs.cache
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.sourcelink.json
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BSoM.csproj.CopyComplete
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BuildSystemsObjectModel.dll
+D:\repos\BuildSystems\BSoM\obj\Debug\net48\BuildSystemsObjectModel.pdb
